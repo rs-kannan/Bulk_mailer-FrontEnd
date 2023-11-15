@@ -1,6 +1,6 @@
 
 
-LIVE deployed URL : https://luminous-palmier-8e325b.netlify.app/
+<h2>LIVE deployed URL : https://luminous-palmier-8e325b.netlify.app/</h2>
 
 ![image](https://github.com/rs-kannan/Bulk_mailer-FrontEnd/assets/133184797/438858ca-0205-4c5f-a699-00aa6aed8339)
 
