@@ -1,0 +1,482 @@
+.initial{
+    /* background-color:#cce7e8;  */
+    background-image: url(https://w0.peakpx.com/wallpaper/818/148/HD-wallpaper-whatsapp-background-cool-dark-green-new-theme-whatsapp.jpg);
+    min-height:80vh;
+    max-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+    /* margin-bottom: 0px; */
+  }
+  .registerBox{
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: space-between; */
+    /* flex-direction: column; */
+    /* width: 800px; */
+    background-image: url(https://c1.wallpaperflare.com/preview/481/732/904/paper-wrinkled-white-cute.jpg);
+    padding: 10px 40px;
+    border: 2px solid rgb(16, 15, 15);
+    box-shadow: 5px 1px 20px 1px rgb(15, 14, 14);
+  }
+  .registerBox:hover{
+
+    box-shadow: 5px 10px 20px 15px rgb(18, 18, 18);
+  }
+ 
+.email{
+    /* color: white; */
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    padding: 15px;
+
+}
+.plus{
+    color: white;
+    background-color: rgb(119, 125, 117);
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.plus:hover{
+    transform: scale(1.04);
+    opacity: .8;
+}
+.newAccount{
+   font-size: 18px;
+}
+.ainput{
+    height: 35px;
+    /* border-radius: 5px; */
+    outline: none;
+    padding-left: 10px;
+    background-color: transparent;
+    /* border: none; */
+     /* border-bottom:  2px solid rgb(135, 123, 123); */
+}
+.registerbtn{
+    background-color: rgb(236, 13, 13);
+    color: white;
+    padding: 10px;
+}
+.loginAccount{
+    /* background-color: red; */
+    margin-bottom: 5px;
+    display: flex;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nameMail{
+    /* background-color: white; */
+
+    >.nm{
+       
+        font-weight: 550;
+    }
+    >.em{
+        color: rgb(123, 118, 118);
+        font-size: 12px;
+    }
+}
+.loginAccount:hover{
+    background-color: rgba(88, 84, 84, 0.195);
+}
+.rga{
+    /* background-color: red; */
+    text-align: center;
+    color: rgb(20, 220, 20);
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.hr{
+    height: 1px;
+    border: 1px dotted rgb(108, 118, 108);
+    /* background-color: red; */
+    margin: 10px 0;
+}
+.userregister{
+    margin-bottom: 20px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-top: 20px;
+}
+
+.aa{
+    /* 2 */
+    width: 45px;
+    height: 45px;
+    background-color: rgb(30, 109, 219);
+    font-size: 25px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-right: 10px;
+  }
+.a{
+    background-color:rgb(30, 109, 219);
+}
+.b{
+    background-color: rgb(242, 165, 22);
+}
+.c{
+    background-color: brown;
+}
+.d{
+    background-color: rgb(24, 154, 24);
+}
+.boxmail{
+    /* background-color: violet; */
+    min-width: 270px;
+    max-width: auto;
+}
+.overflow{
+    background-color: rgb(239, 238, 238);
+    height: 300px;
+    margin: 5px 30px;
+    /* max-height: auto; */
+    overflow-y: scroll;
+    /* border-radius: 15px; */
+
+}
+.logomail{
+    /* background-color: wheat; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    >.maill{
+        font-size: 250px;
+        font-weight: 100;
+        color: rgb(9, 10, 9);
+    }
+    .color{
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+        >.bulk{
+            /* color: red; */
+            background-color: red;
+        }
+        >.emaill{
+            background: rgb(24, 162, 19);
+        }
+        >.app{
+            background-color: blue;
+        }
+        .q{
+            padding: 5px;
+            border-right: 2px solid white;
+            border-radius: 5px;
+            color: white;
+        }
+       
+    }
+    >p{
+        font-size: 20px;
+    }
+}
+.errl{
+
+    color: red;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    /* background-color: black; */
+    
+    >.eril{
+        color: red;
+        font-size: 15px;
+    }
+}
+
+.inputForms{
+    >.inp{
+        height: 40px;
+        margin-bottom: 0px;
+        padding-left: 10px;
+    }
+}
+.inputForms{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /* background-color: black; */
+    row-gap: 15px;
+    
+  }
+
+  .useCase1{
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    cursor: pointer;
+    >span{
+        color: rgb(30, 6, 248);
+    }
+    >span:hover{
+        color: red;
+        transform: scale(1.08);
+    }
+  }
+  .demo{
+    background-color: rgb(238, 243, 247);
+    padding: 8px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 5px 2px 10px   rgba(21, 14, 14, 0.601);
+    display: flex;
+    position: relative;
+    column-gap: 10px;
+    color: grey;
+  }
+  
+  .closex{
+    /* position: absolute;
+    right: 0;
+    top: 0; */
+    color: red;
+    /* background-color: white; */
+    /* border-radius: 50%; */
+  }
+
+  .connection{
+    color: red;
+    font-size: 15px;
+    /* background-color: black; */
+    padding: 0 15px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .demo1{
+    background-color: rgb(243, 245, 247);
+    padding: 20px;
+    width: 50%;
+    box-shadow: 5px 2px 10px   rgba(21, 14, 14, 0.601);
+    display: flex;
+    position: absolute;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    column-gap: 10px;
+    color: rgb(43, 42, 42);
+  }
+.footercopy{
+    background: transparent;
+    background-image: url(https://w0.peakpx.com/wallpaper/818/148/HD-wallpaper-whatsapp-background-cool-dark-green-new-theme-whatsapp.jpg);
+    width: 100%;
+    display: flex;
+    height: 153px;
+    justify-content: space-between;
+    padding: 10px 30px;
+    margin-top: 0px;
+    border-top: 0px solid rgb(217, 213, 213);
+    align-items: center;
+    font-size: 12px;
+
+
+}
+
+.colorall{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+ 
+}
+.yr{
+    color: red;
+    
+}
+.yb{
+    color: blue;
+  
+}
+.yg{
+    color: green;
+    
+  
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:650px) {
+    .registerBox{
+        /* background-color: black; */
+        flex-direction: column;
+        /* justify-content: center; */
+       padding: 0px 20px;
+       margin: 30px 0;
+    }
+    .footercopy{
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 20px;
+        padding-top: 10px;
+        height: auto;
+    }
+    .footerlogomail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .colorall{
+       
+        margin: auto;
+    }
+
+    .sendImage{
+        width: 230px;
+    }
+
+    .to{
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 200px;
+        max-width: auto;
+        font-family:  sans-serif;
+        font-size: 13px;
+    }
+    .sub{
+        font-family:sans-serif;
+        font-size: 13px;
+        
+    }
+    .sentTime{
+        
+        font-size: 8px;
+         
+     }
+}
+@media only screen and (max-width:320px) {
+
+    .sentTime{
+        
+       font-size: 7px;
+        
+    }
+   
+    .sentContainer{
+        /* background-color: blue; */
+        padding: 5px;
+    }
+    
+    .to{
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 200px;
+        max-width: auto;
+        font-family:  sans-serif;
+        font-size: 13px;
+    }
+    .sub{
+        font-family:sans-serif;
+        font-size: 13px;
+        
+    }
+
+    .profiledp{
+
+        width: 35px;
+        height: 35px;
+        background-color: rgb(48, 163, 234);
+        font-size: 20px;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        font-family: sans-serif;
+      }
+
+    .sendImage{
+        width: 170px;
+    }
+    .registerBox{
+        /* background-color: black; */
+        flex-direction: column;
+        /* justify-content: center; */
+       width: 270px;
+       padding: 0;
+    }
+    .aa{
+        /* 2 */
+        width: 25px;
+        height: 25px;
+        background-color: rgb(30, 109, 219);
+        font-size: 15px;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        margin-right: 10px;
+      }
+      .a{
+        background-color:rgb(30, 109, 219);
+    }
+    .b{
+        background-color: rgb(242, 165, 22);
+    }
+    .c{
+        background-color: brown;
+    }
+    .d{
+        background-color: rgb(24, 154, 24);
+    }
+
+    .nameMail{
+        /* background-color: white; */
+    
+        >.nm{
+           
+            font-weight: 550;
+            font-size: 12px;
+        }
+        >.em{
+            color: rgb(123, 118, 118);
+            font-size: 8px;
+        }
+    }
+    .overflow{
+        background-color: rgb(239, 238, 238);
+        height: 300px;
+        
+        width: 85%;
+        /* max-height: auto; */
+        overflow-y: scroll;
+        /* border-radius: 15px; */
+    
+    }
+
+    .logomail{
+        > .maill{
+            font-size: 150px;
+        }
+    }
+   
+  
+}

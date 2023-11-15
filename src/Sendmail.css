@@ -1,0 +1,251 @@
+.sendForm{
+    background-color: rgb(251, 251, 254);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.formdata{
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding: 10px;
+    /* row-gap: 10px; */
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    /* box-shadow: 1px 2px 5px black; */
+}
+.inp{
+    height: 50px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+    /* border-bottom: 2px solid rgb(179, 170, 170); */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inp::placeholder{
+    text-transform: capitalize;
+    font-size: 15px;
+
+}
+.txt{
+    height: 150px;
+    padding: 15px;
+}
+.multiplemail::placeholder{
+    font-size: 15px;
+    
+}
+.sendbtn{
+    height: 40px;
+    background-color: rgb(244, 24, 24);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    width: 100px;
+    border-radius: 50px;
+    border: none;
+    >.rck:hover{
+        color: rgb(56, 243, 27);
+    }
+}
+.sendbtn:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 2px 15px black;
+
+}
+
+
+.maillogo{
+    color: rgb(12, 11, 11);
+    margin-bottom: 20px;
+   >.mail{
+    background-color:white;
+    border-radius: 12px;
+    color: red;
+    font-size: 60px;
+   }
+}
+
+.load{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+}
+.spin{
+    /* background-color: red; */
+
+    
+}
+.err{
+
+    color: red;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    
+    >.eri{
+        color: red;
+        font-size: 15px;
+    }
+}
+
+/* sendmail views */
+
+.sendImage{
+    width: 300px;
+    position: relative;
+}
+.positionimg{
+    position: relative;
+}
+
+.positionimg::after{
+    position: absolute;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.325);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: scale(0);
+}
+.positionimg:hover::after{
+    transform: scale(1);
+}
+
+.openView{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.781);
+    padding: 20px;
+
+} 
+ .imgContainer img:hover{
+    background-color: rgba(0, 0, 0, 0.422);
+} 
+ 
+.imgContainer{
+    background-color: rgba(151, 147, 147, 0.192);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.sentTime{
+    font-size: 10px;
+    color: rgb(6, 6, 6);
+    margin-right: 30px;
+}
+.perMail{
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    padding:0 20px 0 0;
+    padding: 8px;
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(232, 230, 230);
+}
+.perMail:hover{
+    background-color: rgba(223, 223, 225, 0.645);
+}
+.sending{
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.multiplemail::placeholder{
+    
+    padding: 4px;
+}
+.multiplemail{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mailSent{
+     color: black;
+}
+.to{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: blue; */
+    min-width: 200px;
+    max-width: auto;
+    font-family:  sans-serif;
+    
+}
+.sub{
+    font-family:sans-serif;
+    
+}
+.homedp{
+    margin-right: 10px;
+}
+.justy{
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+}
+/* .bulk{
+    color: rgb(4, 49, 249);
+} */
+
+/*  */
+input[type="file"]::file-selector-button {
+    border: 2px solid #6c5ce7;
+    padding: 0.2em 0.4em;
+    border-radius: 0.2em;
+    background-color: #a29bfe;
+    transition: 1s;
+  }
+  
+  input[type="file"]::file-selector-button:hover {
+    background-color: #81ecec;
+    border: 2px solid #00cec9;
+  }
+  .useCase{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    cursor: pointer;
+    >span{
+        color: red;
+    }
+  }
+  .egmail{
+    color: rgb(3, 44, 248);
+    font-style: bold;
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .titleBulk{
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .label{
+    color: rgb(43, 45, 43);
+    margin-bottom: 10px;
+  
+  }
+  .bulkmail{
+    margin-bottom: 0px;
+    color: blue;
+    font-family: sans-serif;
+  }

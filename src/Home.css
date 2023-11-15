@@ -1,0 +1,87 @@
+.composemail{
+    /* background-color: rgba(28, 186, 36, 0.97); */
+     background-image: url(https://w0.peakpx.com/wallpaper/818/148/HD-wallpaper-whatsapp-background-cool-dark-green-new-theme-whatsapp.jpg);
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 12px;
+    font-size: 15px;
+    position: fixed;
+    bottom: 150px;
+    left: 20px;
+    
+   padding: 10px 20px;
+    >.pen{
+        font-size: 20px;
+        color: white;
+        margin-right: 5px;
+    }
+}
+.composemail:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 2px 15px black;
+}
+
+.status{
+    transition: 1s;
+    background-color: rgba(8, 8, 8, 0.74);
+    display: flex;
+    padding-left: 30px;
+    position: fixed;
+    bottom: 0px;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    color: white;
+    /* margin-bottom: 30px; */
+
+    >.check{
+           color: rgb(36, 245, 25);
+       
+    }
+}
+.nostatus{
+    position: absolute;
+    left: -2000px;
+   
+   
+}
+.mailSent{
+ 
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    
+    /* border-bottom: 1px solid gray; */
+}
+.sentContainer{
+    padding: 20px 10px 20px 20px;
+    /* background-color: rgb(115, 115, 203); */
+    min-height: auto;
+    max-height: auto;
+    margin-top: 70px;
+}
+
+.bulkmail{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.cbox{
+    background-color: green;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.mailLogo1{
+    /* width: 30px; */
+}
+.waitMail{
+    height: 100px;
+   
+}
